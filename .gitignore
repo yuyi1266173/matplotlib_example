@@ -1,0 +1,4 @@
+example_src/*
+examples.json
+matplotlib_example/__pycache__/
+matplotlib_example/spiders/__pycache__/
