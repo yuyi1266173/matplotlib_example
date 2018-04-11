@@ -90,7 +90,8 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 ITEM_PIPELINES = {
-	'scrapy.pipelines.files.FilesPipeline' : 1, 
+	#'scrapy.pipelines.files.FilesPipeline' : 1, 
+	'matplotlib_example.pipelines.MyFilesPipeline' : 1, 
 }
 
 FILES_STORE = 'example_src'
