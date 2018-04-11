@@ -88,3 +88,9 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+ITEM_PIPELINES = {
+	'scrapy.pipelines.files.FilesPipeline' : 1, 
+}
+
+FILES_STORE = 'example_src'
